@@ -1,0 +1,1 @@
+# EasyNotification for Python language
