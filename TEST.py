@@ -1,5 +1,6 @@
-import pythonEsn
+import ESNSession
 
-pythonEsn.start_esn(("39.100.5.139", 3003))
-pythonEsn.login_esn("root", "turtle")
-pythonEsn.request_recent(100000)
+ESNSession.debugMode = True
+ESNSession.connect(("39.100.5.139", 3003))
+ESNSession.login("root", "turtle")
+ESNSession.requestRecent(100000)
